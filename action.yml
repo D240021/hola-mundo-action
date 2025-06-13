@@ -1,4 +1,4 @@
-name: 'Hola mundo'
+name: 'Hola mundo por Daniel Barrantes'
 description: 'Saluda a alguien y capta el tiempo.'
 inputs:
   who-to-greet:  
