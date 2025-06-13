@@ -1,0 +1,13 @@
+name: 'Hola mundo'
+description: 'Saluda a alguien y capta el tiempo.'
+inputs:
+  who-to-greet:  
+    description: 'Destino saludo'
+    required: true
+    default: 'mundo'
+outputs:
+  fecha: # id of output
+    description: 'Fecha en que te saludaron'
+runs:
+  using: 'node20'
+  main: 'index.js'
